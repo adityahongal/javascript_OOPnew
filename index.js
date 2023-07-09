@@ -22,3 +22,5 @@
 // }
 // employee.getWage();
 //
+
+// Abstraction tutorial
