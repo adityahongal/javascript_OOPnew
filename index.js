@@ -27,4 +27,19 @@
  // const circle = createCircle(1);
  // circle.draw();
 
- // 
+ //  Constructors in OOPS
+
+ //  Constructor Function
+
+ // 1. No use of return function inside body.
+ // 2. We use upper Case letter to define an object, .
+ // 3. we use this keyword to define properties and method.
+ // 4. We use new operator to return object from the function Circle.
+
+ // function Circle(radius){                       //-------> syntax with upper case & parameter radius
+ //    this.radius = radius;                       //-------> BODY with this keyword, also properties of circle
+ //    this.draw = function(){                     //-------> Method
+ //        console.log('draw');
+ //    }
+ //   }
+ // const another = new Circle(1);                 //-------> New operator
