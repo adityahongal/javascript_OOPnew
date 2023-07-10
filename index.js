@@ -13,3 +13,16 @@
 //    }
 // };
 // circle.draw();                                 //-------> We can access members using dot notation
+
+// Factories in objects tutorial 
+ // FACTORY FUNCTION
+
+ // function createCircle(radius){                    //-------> Factory function 
+ //   return{
+ //       draw: function(){
+ //           console.log('draw');
+ //       }
+ //   };
+ // }
+ // const circle = createCircle(1);
+ // circle.draw();
