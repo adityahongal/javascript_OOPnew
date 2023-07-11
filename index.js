@@ -68,4 +68,18 @@
  //     }
  //    const another = new Circle(1);
  // In console use command for output ---> another.constructor
+
+ // Primitive/value types versus Reference types
+ // PRIMITIVE TYPE
+ // let x  = 10;                               // Independent variable
+ // let y = x;                                 // Independent variable
+ // x = 20;
+ // for output type x in console and after that type y in console, They give seperate outputs cz of Independent variables
+
+ // REFERENCE TYPE
+ //  let x = {value : 10};                         // Object is used
+ //  let y = x;
+ //   x.value = 20 ;
+ // for output type x in console and after that type y in console, They give same outputs cz of object.
+
  
