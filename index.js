@@ -82,4 +82,24 @@
  //   x.value = 20 ;
  // for output type x in console and after that type y in console, They give same outputs cz of object.
 
+ // ENUMERATING PROPERTIES
+ // function Circle(radius){                       
+ //       this.radius = radius;                       
+ //        this.draw = function(){                     
+ //             console.log('draw');
+ //        }
+ //  }
+
+ //   const circle = new Circle(10);
+
+ // for (let key in circle){                                   // "for in" operator
+ //       if (typeof circle[key] !== 'function')
+ //       console.log(key, circle[key]);
+ // }
+
+ // const keys = Object.keys(circle);                          // is used to get all keys in object
+ // console.log(keys);
+
+ // if('radius' in circle)                                     // "in" operator is used to check if aa object has given property
+ //   console.log('Circle has a radius');
  
