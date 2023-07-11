@@ -19,6 +19,7 @@
 
  // function createCircle(radius){                    //-------> Factory function 
  //   return{
+ //       radius,
  //       draw: function(){
  //           console.log('draw');
  //       }
@@ -45,4 +46,26 @@
  // const another = new Circle(1);                 //-------> New operator
 
  // CONSTRUCTOR properties
- //
+ // FACTORY FUNCTION
+
+ // function createCircle(radius){                    //-------> Factory function 
+ //  return{
+ //     radius,
+ //     draw: function(){
+ //          console.log('draw');
+ //      }
+ //  };
+ // }
+ // const circle = createCircle(1);     
+ // In console use command for output ---> circle.constructor
+
+ // Constructor function
+ // function Circle(radius){                       
+ //    this.radius = radius;                       
+ //      this.draw = function(){                     
+ //           console.log('draw');
+ //      }
+ //     }
+ //    const another = new Circle(1);
+ // In console use command for output ---> another.constructor
+ 
