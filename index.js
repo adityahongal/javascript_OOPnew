@@ -103,3 +103,24 @@
  // if('radius' in circle)                                     // "in" operator is used to check if aa object has given property
  //   console.log('Circle has a radius');
  
+ // How to implement ABSTRACTION in Javascript
+
+ // We can define them as variables (let  defaultLocation) instead of (this.defaultLocation)
+ // Only essentials property and method is shown to public, rest all will be hidden.
+ // We can access only "circle.draw & circle.radius" members of circle object and cannot access hidden members like "defaultLocation"
+
+ // function Circle(radius){
+ //   this.radius = radius;                                   // This will be shown
+//
+ //   let defaultLocation = {x :0, y:0};                      // we declare them as variable to hide them
+ //   
+ //   let computeOptimumLocation = function(factor) {        // we declare them as variable to hide them
+ //       //...
+ //   }
+ //   this.draw = function(){                                // This will be shown
+ //       computeOptimumLocation(0.1);
+ //       console.log('draw');
+ //   };
+ // }
+ // const circle = new Circle(10);
+ // circle.draw();                                         // after typing "circle." we can access only draw & radius and other members like defaultLocation will be hidden
